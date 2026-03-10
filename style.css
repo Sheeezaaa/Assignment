@@ -1,0 +1,103 @@
+body{
+background:#ffeefb;
+font-family:Arial, sans-serif;
+margin:0;
+padding:0;
+}
+
+.container{
+width:750px;
+margin:auto;
+background:pink;
+padding:20px;
+box-shadow:0 0 10px gray;
+border-radius:10px;
+}
+
+/* Main Title */
+.title{
+color:brown;
+text-align:center;
+}
+
+/* Table Design */
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+th{
+background:skyblue;
+color:black;
+padding:10px;
+}
+
+td{
+border:1px solid #ccc;
+padding:10px;
+}
+
+tr:nth-child(even){
+background:#f4f9ff;
+}
+
+tr:hover{
+background:#dceeff;
+}
+
+/* Links */
+a{
+text-decoration:underline;
+color:blueviolet;
+}
+
+/* Navigation */
+.nav{
+margin-top:20px;
+}
+
+.home{
+color:pink;
+font-weight:bold;
+}
+
+.next{
+color:skyblue;
+font-weight:bold;
+}
+
+/* Headings */
+.heading{
+color:black;
+}
+
+
+/* Lecture title */
+.lecture-title{
+color:black;
+border-bottom:2px solid black;
+padding-bottom:8px;
+margin-bottom:15px;
+}
+
+/* Topic table */
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+background:white;
+}
+
+th, td{
+border:1px solid black;
+padding:10px;
+}
+/* Example box */
+.example-box{
+background:#f7f7f7;
+border-left:5px solid #4da6ff;
+padding:15px;
+margin-top:10px;
+}
+
